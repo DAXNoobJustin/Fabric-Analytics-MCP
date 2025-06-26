@@ -1,11 +1,11 @@
 {
-  "name": "mcp-for-microsoft-fabric-analytics",
+  "name": "microsoft-fabric-dax-optimizer-mcp",
   "version": "1.0.0",
-  "description": "MCP server for Microsoft Fabric Analytics - enables LLMs to access and analyze Microsoft Fabric data",
+  "description": "MCP server for Microsoft Fabric DAX optimization - enables AI assistants to analyze and optimize DAX queries in semantic models",
   "type": "module",
   "main": "./build/index.js",
   "bin": {
-    "fabric-analytics": "./build/index.js"
+    "fabric-dax-optimizer": "./build/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -18,13 +18,13 @@
     "mcp",
     "model-context-protocol",
     "microsoft-fabric",
-    "analytics",
-    "data-analysis",
+    "dax",
+    "semantic-model",
+    "power-bi",
+    "optimization",
     "llm",
     "ai",
     "claude",
-    "spark",
-    "livy",
     "msal",
     "authentication"
   ],
